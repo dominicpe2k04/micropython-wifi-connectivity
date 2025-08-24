@@ -2,11 +2,12 @@ import network
 import socket
 import time
 
+wifi.active(False)
 wifi = network.WLAN(network.STA_IF)
 wifi.active(True)
 
-ssid = 'Common'
-password = 'password'
+ssid = 'your wifi name'
+password = 'your wifi password'
 
 while True:
     # Wifi Connection code
